@@ -7,7 +7,7 @@ _A project in the works_
 
 ### Prerequisites
 
-What things you need to install 
+What things you need to install
 
 * React
 * Javascript
@@ -52,6 +52,9 @@ Add additional notes about how to deploy this on a live system
 * [React](https://reactjs.org) - The front-end framework
 * [Redux](https://redux.js.org) - Dependency Management
 
+## Example WireFrame
+
+![](src/assets/images/Mockup.png)
 
 ## Author
 
@@ -60,4 +63,3 @@ Add additional notes about how to deploy this on a live system
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
