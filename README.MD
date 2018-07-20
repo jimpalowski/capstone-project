@@ -54,7 +54,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Example WireFrame
 
-![](src/assets/images/Mockup.png)
+![](src/assets/images/MockUp.png)
 
 ## Author
 
