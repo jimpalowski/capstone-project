@@ -1,18 +1,19 @@
 import React from 'react'
 
 export default function ProductListItem(props){
-    return 
+    return (
     <div>
-        <h3>{ props.name }</h3>
-        <img 
+        <h3>{ props.product.name }</h3>
+        <img
         height={100}
-        title={ props.name}
-        src={`/products/${props.image}`}
+        title={ props.product.name}
+        src={`/products/${props.product.image}`}
         />
-        <div>{ props.description }</div>
-        <div>${ props.price }</div>
+      <div>{ props.product.description }</div>
+        <div>${ props.product.price }</div>
         <div>
             <button>Add to Cart</button>
         </div>
         </div>
-    }
+  )
+}

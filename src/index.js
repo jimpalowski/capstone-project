@@ -8,7 +8,7 @@ import { Provider } from 'react-redux'
 import './index.css';
 import App from './App';
 import store from './config/store'
-
+import ProductListItem from './features/product-listing/product-list-item';
 
 const app = <Provider store={store}>
   <BrowserRouter>
