@@ -15,7 +15,7 @@ What things you need to install
 * CSS
 * Bootstrap
 * NPM
-
+* Redux
 
 ### Installing
 
