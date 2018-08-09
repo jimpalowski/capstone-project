@@ -10,8 +10,8 @@ function ProductListing(props){
                              addToCart={props.addToCart} />)
         }
         </div>
-      )
-}
+    )
+  }
 
 function mapStateToProps(state) {
   return {
