@@ -19,6 +19,7 @@ function ProductListing(props){
 function mapStateToProps(state) {
   return {
     cart: state.cart
+    page: state.page
   }
 }
 
