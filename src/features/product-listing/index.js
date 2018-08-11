@@ -20,6 +20,8 @@ function mapStateToProps(state) {
   return {
     cart: state.cart
     page: state.page
+    state: state.screen
+    
   }
 }
 
