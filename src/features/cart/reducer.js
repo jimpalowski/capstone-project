@@ -3,6 +3,9 @@ const cartReducer = (state=[], action) => {
     case 'ADD':
       return [...state, action.payload]
 
+      case 'UPDATE':
+      return [...state, action.payload]
+
     case 'REMOVE':
       const firstMatchIndex = state.indexOf(action.payload)
       return state.filter((item, index) => index !== firstMatchIndex)
