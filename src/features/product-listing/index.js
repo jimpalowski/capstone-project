@@ -16,6 +16,17 @@ function ProductListing(props){
     )
   }
 
+  function CartListing(props){
+    return (<div className='product-listing'>
+        {
+            props.products.map( product =>
+            <ProductListItem product={product}
+                             addToCart={props.addToCart}
+                             cart={cartItemsWithQuantities(props.cart)} />)
+        }
+        </div>
+    )
+  }
 function mapStateToProps(state) {
   return {
     cart: state.cart
