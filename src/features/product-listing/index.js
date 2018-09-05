@@ -46,6 +46,10 @@ function mapDispatchToProps(dispatch) {
       dispatch({ type: 'REMOVE',
                   payload: item})
     }
+    editFromCart: (item) => {
+      dispatch({ type: 'REMOVE',
+                  payload: item})
+    }
   }
 }
 
