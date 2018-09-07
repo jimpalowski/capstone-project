@@ -13,6 +13,7 @@ import ProductListItem from './features/product-listing/product-list-item';
 const app = <Provider store={store}>
   <BrowserRouter>
     <App />
+    <Cart />
   </BrowserRouter>
 </Provider>
 
