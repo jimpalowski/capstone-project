@@ -11,6 +11,7 @@ const Navigation = (props) =>
       <li><NavLink to='/'>Home</NavLink></li>
       <li><NavLink to='/cart'>Cart</NavLink></li>
       <li><NavLink to='/products'>Products</NavLink></li>
+      <li><NavLink to='/admin'>Admin</NavLink></li>
     </ul>
   </nav>
 
