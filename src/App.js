@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom'
 
-
 import Router from './Router';
-
 
 const Navigation = (props) =>
   <nav>
