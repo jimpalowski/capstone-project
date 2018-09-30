@@ -19,6 +19,5 @@
   },
   "devDependencies": {
     "redux-devtools": "^3.4.1",
-    "class-names": "^1.4.2"
   }
 }
